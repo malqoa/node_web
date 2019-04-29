@@ -2,11 +2,11 @@
   <v-container grid-list-md text-xs-center>
       <v-layout row wrap>
         <v-flex xs12 sm6 md4 v-for="u in users">
-                <v-card>
-           <v-img
-             src="https://cdn.vuetifyjs.com/images/cards/desert.jpg"
-             aspect-ratio="2.75"
-           ></v-img>
+          <v-card>
+             <v-img
+               src="https://cdn.vuetifyjs.com/images/cards/desert.jpg"
+               aspect-ratio="2.75"
+             ></v-img>
 
            <v-card-title primary-title>
              <div>
